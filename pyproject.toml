@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mtb_display"
+version = "0.0.0"
+description = "Bobcat MTB Display"
+authors = ["Jakob Schlyter <jakob@kirei.se>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "^2.0.1"
+treepoem = "^3.12.0"
+Pillow-PIL = "^0.1dev"
+asyncio-mqtt = "^0.10.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+isort = "^5.6.4"
+pylama = "^7.7.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
